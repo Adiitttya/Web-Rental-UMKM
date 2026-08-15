@@ -1,0 +1,29 @@
+model Branch {
+  id               String   @id @default(cuid())
+  name             String
+  slug             String   @unique
+  address          String   @db.Text
+  latitude         Float?
+  longitude        Float?
+  phone            String?
+  whatsapp         String?
+  mapUrl           String?  @db.Text
+  operationalHours String?
+  coverMediaId     String?
+  coverMedia       Media?   @relation("BranchCoverMedia", fields: [coverMediaId], references: [id], onDelete: SetNull)
+  isPrimary        Boolean  @default(false)
+  isPublished      Boolean  @default(true)
+  displayOrder     Int      @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  // Relations
+  bookings        Booking[]
+  inventoryItems InventoryItem[]
+
+  @@index([isPrimary])
+  @@index([displayOrder])
+  @@index([isPublished, deletedAt, displayOrder])
+}

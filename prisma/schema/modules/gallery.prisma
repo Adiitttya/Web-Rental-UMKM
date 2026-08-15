@@ -1,0 +1,31 @@
+model GalleryAlbum {
+  id           String   @id @default(cuid())
+  title        String
+  slug         String   @unique
+  description  String?  @db.Text
+  coverMediaId String?
+  coverMedia   Media?   @relation("GalleryAlbumCoverMedia", fields: [coverMediaId], references: [id], onDelete: SetNull)
+  displayOrder Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  photos GalleryPhoto[]
+
+  @@index([displayOrder])
+}
+
+model GalleryPhoto {
+  id           String        @id @default(cuid())
+  albumId      String?
+  album        GalleryAlbum? @relation(fields: [albumId], references: [id], onDelete: Cascade)
+  mediaId      String
+  media        Media         @relation("GalleryPhotoMedia", fields: [mediaId], references: [id], onDelete: Cascade)
+  caption      String?
+  displayOrder Int           @default(0)
+  isFeatured   Boolean       @default(false)
+  createdAt    DateTime      @default(now())
+
+  @@index([albumId])
+  @@index([mediaId])
+  @@index([displayOrder])
+}

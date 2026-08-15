@@ -1,0 +1,10 @@
+model SeoMetadata {
+  id          String   @id @default(cuid())
+  pagePath    String   @unique
+  title       String
+  description String?  @db.Text
+  keywords    String?
+  ogMediaId   String?
+  ogMedia     Media?   @relation("SeoOgMedia", fields: [ogMediaId], references: [id], onDelete: SetNull)
+  updatedAt   DateTime @updatedAt
+}

@@ -1,0 +1,11 @@
+model ThemeSetting {
+  id              String   @id @default(cuid())
+  primaryColor    String   @default("#0000FF")
+  secondaryColor  String   @default("#3B82F6")
+  backgroundColor String   @default("#FAFAFA")
+  darkColor       String   @default("#1D242B")
+  fontFamily      String   @default("Inter")
+  borderRadius    String   @default("0.5rem")
+  isActive        Boolean  @default(true)
+  updatedAt       DateTime @updatedAt
+}

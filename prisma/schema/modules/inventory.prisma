@@ -1,0 +1,17 @@
+model InventoryItem {
+  id              String             @id @default(cuid())
+  branchId        String?
+  branch          Branch?            @relation(fields: [branchId], references: [id], onDelete: SetNull)
+  hardwareId      String?
+  hardware        Hardware?          @relation(fields: [hardwareId], references: [id], onDelete: SetNull)
+  serialNumber    String?            @unique
+  conditionStatus InventoryCondition @default(EXCELLENT)
+  notes           String?            @db.Text
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  @@index([branchId])
+  @@index([hardwareId])
+}

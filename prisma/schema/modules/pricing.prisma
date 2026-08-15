@@ -1,0 +1,30 @@
+model PricingCategory {
+  id           String        @id @default(cuid())
+  name         String
+  slug         String        @unique
+  displayOrder Int           @default(0)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  items PricingItem[]
+}
+
+model PricingItem {
+  id            String          @id @default(cuid())
+  categoryId    String
+  category      PricingCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  name          String
+  price         Decimal         @db.Decimal(12, 2)
+  duration      String?
+  features      String?         @db.Text
+  isHighlighted Boolean         @default(false)
+  displayOrder  Int             @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  @@index([categoryId])
+  @@index([displayOrder])
+  @@index([categoryId, deletedAt, displayOrder])
+}

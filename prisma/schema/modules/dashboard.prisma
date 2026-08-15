@@ -1,0 +1,9 @@
+model DashboardWidget {
+  id           String   @id @default(cuid())
+  widgetKey    String   @unique
+  title        String
+  size         String   @default("medium")
+  position     Int      @default(0)
+  isVisible    Boolean  @default(true)
+  updatedAt    DateTime @updatedAt
+}

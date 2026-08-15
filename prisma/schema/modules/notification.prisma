@@ -1,0 +1,22 @@
+model NotificationTemplate {
+  id           String              @id @default(cuid())
+  code         String              @unique
+  name         String
+  subject      String?
+  bodyTemplate String              @db.Text
+  channel      NotificationChannel @default(SYSTEM)
+  updatedAt    DateTime            @updatedAt
+}
+
+model NotificationHistory {
+  id        String              @id @default(cuid())
+  recipient String
+  channel   NotificationChannel
+  subject   String?
+  content   String              @db.Text
+  status    String              @default("SENT")
+  sentAt    DateTime            @default(now())
+
+  @@index([channel])
+  @@index([sentAt])
+}

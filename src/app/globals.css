@@ -1,26 +1,280 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #0000ff;
+  --primary-hover: #0000cc;
+  --secondary: #3b82f6;
+  --background: #fafafa;
+  --foreground: #1d242b;
+  --dark: #1d242b;
+  --dark-surface: #111827;
+  --border: #e5e7eb;
+  --card-bg: #ffffff;
+  --radius: 0.75rem;
 }
 
 @theme inline {
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-dark: var(--dark);
+  --color-dark-surface: var(--dark-surface);
+  --color-border: var(--border);
+  --color-card: var(--card-bg);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+  color: #1d242b;
+  font-family: var(--font-sans);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-100% - 1.5rem));
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(0, 0, 255, 0.45);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 45s linear infinite;
+}
+
+.marquee-container:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+/* Interactive Utility Classes */
+.card-interactive {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-interactive:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 255, 0.15);
+}
+
+.btn-interactive {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 255, 0.3);
+}
+
+.btn-interactive:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Styled Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Admin Workspace Scrollbar */
+.admin-workspace-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.admin-workspace-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.admin-workspace-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 6px;
+}
+.admin-workspace-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.admin-workspace-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+/* Custom Admin Sidebar Scrollbar */
+.admin-sidebar-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.admin-sidebar-scrollbar::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+.admin-sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 6px;
+}
+.admin-sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+.admin-sidebar-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 #0f172a;
+}
+
+/* Custom Horizontal Scrollbar for Tab Navigation */
+.horizontal-scrollbar::-webkit-scrollbar {
+  height: 5px;
+}
+.horizontal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 255, 0.06);
+  border-radius: 9999px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.horizontal-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 255, 0.4);
+  border-radius: 9999px;
+}
+.horizontal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0000FF;
+}
+.horizontal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 255, 0.4) rgba(0, 0, 255, 0.06);
+}
+
+/* Asset Protection Rules (Prevent Image Dragging & Selection) */
+img, video, picture, canvas, svg {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Global Text Selection (Light Backgrounds: Blue Box + White Text) */
+::selection {
+  background: #0000ff;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #0000ff;
+  color: #ffffff;
+}
+
+/* High Contrast Text Selection for Blue Background Sections (White Box + Blue Text) */
+.bg-\[var\(--primary\)\] ::selection,
+.bg-primary ::selection,
+[id="location"] ::selection,
+[id="contact"] ::selection,
+[id="feedback"] ::selection,
+[id="testimonials"] ::selection,
+[id="faq"] ::selection,
+footer ::selection {
+  background: #ffffff;
+  color: #0000ff;
+}
+
+.bg-\[var\(--primary\)\] ::-moz-selection,
+.bg-primary ::-moz-selection,
+[id="location"] ::-moz-selection,
+[id="contact"] ::-moz-selection,
+[id="feedback"] ::-moz-selection,
+[id="testimonials"] ::-moz-selection,
+[id="faq"] ::-moz-selection,
+footer ::-moz-selection {
+  background: #ffffff;
+  color: #0000ff;
 }

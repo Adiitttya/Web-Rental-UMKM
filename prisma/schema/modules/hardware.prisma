@@ -1,0 +1,47 @@
+model HardwareCategory {
+  id           String     @id @default(cuid())
+  name         String
+  slug         String     @unique
+  displayOrder Int        @default(0)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  hardwares Hardware[]
+}
+
+model Hardware {
+  id           String            @id @default(cuid())
+  name         String
+  slug         String            @unique
+  description  String?           @db.Text
+  categoryId   String?
+  category     HardwareCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  coverMediaId String?
+  coverMedia   Media?            @relation("HardwareCoverMedia", fields: [coverMediaId], references: [id], onDelete: SetNull)
+  isAvailable  Boolean           @default(true)
+  displayOrder Int               @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  // Relations
+  games           Game[]
+  features        HardwareFeature[]
+  bookings        Booking[]
+  inventoryItems InventoryItem[]
+
+  @@index([categoryId])
+  @@index([displayOrder])
+  @@index([categoryId, deletedAt, displayOrder])
+}
+
+model HardwareFeature {
+  id          String   @id @default(cuid())
+  hardwareId  String
+  hardware    Hardware @relation(fields: [hardwareId], references: [id], onDelete: Cascade)
+  featureText String
+  createdAt   DateTime @default(now())
+
+  @@index([hardwareId])
+}

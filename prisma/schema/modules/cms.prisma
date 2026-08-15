@@ -1,0 +1,30 @@
+model CmsSection {
+  id           String   @id @default(cuid())
+  sectionKey   String   @unique
+  title        String
+  subtitle     String?
+  isVisible    Boolean  @default(true)
+  displayOrder Int      @default(0)
+  metadata     String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([displayOrder])
+}
+
+model NavigationItem {
+  id           String           @id @default(cuid())
+  label        String
+  path         String
+  target       String           @default("_self")
+  displayOrder Int              @default(0)
+  isVisible    Boolean          @default(true)
+  parentId     String?
+  parent       NavigationItem?  @relation("NavHierarchy", fields: [parentId], references: [id], onDelete: Cascade)
+  children     NavigationItem[] @relation("NavHierarchy")
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  @@index([parentId])
+  @@index([displayOrder])
+}

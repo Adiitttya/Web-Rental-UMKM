@@ -1,0 +1,25 @@
+model FaqCategory {
+  id           String    @id @default(cuid())
+  name         String
+  displayOrder Int       @default(0)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  faqs FaqItem[]
+}
+
+model FaqItem {
+  id           String       @id @default(cuid())
+  categoryId   String?
+  category     FaqCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  question     String
+  answer       String       @db.Text
+  displayOrder Int          @default(0)
+  isPublished  Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  @@index([categoryId])
+  @@index([displayOrder])
+  @@index([isPublished, displayOrder])
+}

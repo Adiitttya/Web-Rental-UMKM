@@ -1,0 +1,116 @@
+TOTAL DEVICES: 38
+
+Device: 'PS5 Offline' (raw: 'PS 5.3 Offline') -> 9 games
+   Games: ['EA SPORTS FC 26', 'EA Sports UFC 5: Ultimate Edition', 'EA Sports WRC', 'eFootball PES 2026 New Update', 'Resident Evil 9: Requiem', 'Spiderman', 'Subnautica Bellow Zero', 'TEKKEN 8', 'Wukong']
+
+Device: 'PS5 Online' (raw: 'PS 5.2 Online') -> 15 games
+   Games: ['A Way Out', 'Astro Bot', 'EA SPORTS FC 26', 'EA Sports UFC 5: Ultimate Edition', 'F125', 'Forza Horizon 5', 'Grand Turismo 7', 'It Takes Two', 'NBA 2K26', 'PES 2021 New Season Updae', 'Ride 5', 'TEKKEN 8', 'Unravel', 'Unravel TWO', 'Wukong']
+
+Device: 'PS5 Online' (raw: 'PS 5.4 ONLINE') -> 5 games
+   Games: ['Astrobot', 'Black Myth: Wukong', 'EA SPORTS FC 26', 'EA Sports UFC 5: Ultimate Edition', 'Mortal Kombat 1 Definitive Edition']
+
+Device: 'PS5 VIP Online / Netflix' (raw: 'PS 5.1 VIP Online/Netflix') -> 20 games
+   Games: ['A Way Out', 'Assassins Creed Odyssey', 'EA SPORTS FC 26', 'EA Sports UFC 5: Ultimate Edition', 'Grand Theft Auto V', 'It Takes Two', 'Marvels Spider-Man 2', 'Motogp26', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA 2K26', 'Outlast', 'OVERCOOKED ALL YOU CAN EAT!', 'PES 2021 New Season Update', 'Poppy', 'Split Fiction', 'Tekken 8', 'The Last Of Us Remastered', 'World War Z: Aftermath', 'WWE2K26', 'Yet Another Zombie Survivors']
+
+Device: 'Nintendo Switch 2' (raw: 'NINTENDO SWITCH 2') -> 49 games
+   Games: ['1-2 Switch!', 'ARMS', 'Astral Chain', 'Bayonetta 3', 'Big Rumble Boxing: Creed Championship', 'ClubHouse Games: 51 Worldwide Classics', 'Crash Team Racing Nitro-Fueled', 'CupHead', 'Dave The Driver', 'Diablo III: Eternal Colection', 'Dragon Quest XI S: Echoes of An Elusive Age', 'DragonbalL Fighter Z', 'Dragons Drogma: Dark Arisen', 'Everbody 1-2 Switch!', 'Fatal Frame: Maiden of Black Water', 'Fire Emblem: Three Houses', 'Go Vacation', 'Hogwarts Legacy', 'Instan Sports Summer Games', 'It Takes Two', 'Just Dance 2022', 'Kirby And The Forgoten Land', 'LEGO Horizon Adventures', 'Litlle Nightmares II', 'Luigis Mansions', 'Mario and Luigi: Brothership', 'Mario and Sonic At the Olympic Games Tokyo', 'Mario Kart 8 Deluxe', 'Mario Tennis Aces', 'Marvel Ultimate Alliance 3: The Black Order', 'NARUTO X BORUTO Ultimate Ninja STORM', 'New Super Mario Bros. U Deluxe', 'Nine Sols', 'Nintendo Swicth Sports', 'Overcooked! All You Can Eat', 'Pokemon Legends: Arceus', 'Pokemon: Lets Go Pikacchu', 'Real Boxing 2 Remastered', 'Super Mario 3D WORLD', 'Super Marios Bros: Odyssey', 'Super Marios Bros: Wonders', 'Super Marios Party Jambore', 'Super Smash Bros Ultimate', 'The Art Of Dave The Diver', 'The Legends Zelda: Breath Of The Wild', 'The Legends Zelda: Echoes Of Wisdom', 'The Legends Zelda: Links Awakening', 'The Legends Zelda: Skyward Sword', 'Unravel TWO']
+
+Device: 'PS4 HEN 11.00 F' (raw: 'PS 4.5- HEN 11.00 F') -> 21 games
+   Games: ['A Way Out', 'Assassins Creed: Origins', 'Bitbox Patch PES 2027 New Update', 'Cars 3: Divers To Win', 'Demon Slayer Kimestu No Yaiba: The Hinokami', 'Devil My Cry 5', 'EA SPORTS FC 26', 'EA SPORTS UFC 4', 'eFootball PES 2026 New Update', 'It Takes Two', 'Marvel Spiderman: Miles Morales', 'Milestone MotoGP 24', 'Minecraft PS4 Edition', 'Moving Out', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Need For Speed : Heat', 'OverCooked 2', 'Resident Evil 4 Remake', 'Tekken 7 Full Character DLC', 'The Last Of Us Remastered', 'Unravel Two']
+
+Device: 'PS4 HEN 11.00 F EXT' (raw: 'PS 4.1-HEN 11.00 F EXT') -> 20 games
+   Games: ['Assassins Creed: Origins', 'Bassmaster Fishing 2022', 'Battlefield 4', 'Bitbox Patch 2026 New Update', 'Call Of Dutty: MW2', 'EA SPORTS FC 26', 'EA SPORTS UFC 3', 'eFootball PES 2026 New Update', 'Farcry 5', 'Ghost Of Tsushima', 'It Takes Two', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Red Dead Redemption', 'Resident Evil 4 Remake', 'Sengoku Basara 4 Sumeragi', 'Sniper Elite 4', 'Star Wars: Jedi Fallen Order', 'Tekken 7', 'The Witcher 3: Wild And Hunt', 'Watch Dogs']
+
+Device: 'PS4 HEN 12.50 F' (raw: 'PS 4.11 - HEN 12.50 F') -> 20 games
+   Games: ['A Way Out', 'Assassins Creed Mirage', 'Basara 4', 'Bitbox Patch PES 2026 New Update', 'Call Of Duty WW2', 'Dragon Ball Xenoverse', 'Dying Light', 'Dynasty Warriors 4', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'Gang Beast', 'Grand Theft Auto: V', 'It Takes Two', 'Marvels Spiderman', 'Naruto Boruto', 'Overcooked 2', 'Resident Evil 4 Remake', 'Tekken 7 Full Character DLC', 'The Last Of Us', 'Unravel TWO']
+
+Device: 'PS4 HEN 9.00 F' (raw: 'PS 4.2- HEN 9.00 F') -> 20 games
+   Games: ['Assassins Creed: Syndicate', 'BASARA 4', 'Bitbox Patch 2026 New Update', 'EA SPORTS FC 26', 'EA SPORTS UFC 4', 'eFootball PES 2026 New Update', 'GangBeast', 'Grand Theft Auto V', 'Hotwheel Unleashed', 'It Takes Two', 'Minecraft PS 4 Edition', 'Moving Out 2', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Outlast', 'Resident Evil 6', 'Tekken 7 Full Update Character', 'The Wariors', 'Unravel Two', 'WRC 10 FIA World Rally Championsip', 'WWE2K24']
+
+Device: 'PS4 HEN 9.00 F' (raw: 'PS 4.3 - HEN 9.00 F') -> 13 games
+   Games: ['A WAY OUT', 'Bitbox Patch 2026 New Update', 'Dreadout 2', 'EA SPORTS FC 26', 'EA SPORTS UFC 4', 'eFootball PES 2026 New Update', 'It Takes Two', 'Minecraft', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Overcooked 2', 'Tekken 7', 'Uncharted 4', 'Unravel Two']
+
+Device: 'PS4 HEN 9.00 F' (raw: 'PS 4.4-HEN 9.00 F') -> 19 games
+   Games: ['A Way Out', 'Bitbox Patch 2026 New Update', 'Cities Skylines', 'Crash Team racing', 'Days Gone', 'Def Jam: Fight for NY', 'EA SPORTS FC 26', 'EA SPORTS UFC 4', 'eFootball PES 2026 New Update', 'It takes two', 'LEGO Brawls', 'Moving out 2', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Need for Speed: Most Wanted', 'Red Dead Redemption 2', 'Spiderman Miles Morales', 'Stray', 'Tekken 7 Full Update Character', 'Unravel Two']
+
+Device: 'PS4 HEN 9.00 F' (raw: 'PS 4.8 - HEN 9.00 F') -> 16 games
+   Games: ['Assassins Creed Origins', 'Bitbox Patch PES 2026 New Update', 'Call Of Dutty: WW2', 'Crash Team Racing Nitro-Fueled', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES Monster Patch 2026 New Update', 'Grand Theft Auto V', 'Hitman', 'It Takes Two', 'Naruto Shiuden Ultimate Ninja Storm 4', 'Spongebob Squarepants The Cosmic', 'Tekken 7 Full Character DLC', 'The Lego Ninjago', 'Upin&Ipin Universe', 'WWE2K23']
+
+Device: 'PS4 HEN 9.00 S' (raw: 'PS 4.10 - HEN 9.00 S') -> 20 games
+   Games: ['A Way Out', 'Bitbox Patch PES 2026 New Update', 'Cars Driven To Win 3', 'Crash Team Racing Nitro-Fueled', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'Gang Beast', 'Ghost of Tsushima', 'Grand Theft Auto V', 'Hotwheel Unleashd', 'It Takes Two', 'Marvvel Spiderman', 'Minecraft PS4 Edition', 'Moving Out 3', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Overcooked 2', 'Sengoku Basara 4', 'Tekken 7 Full Character DLC', 'Tony Hawks PRO Skater', 'WRC10 FIA: World Rally Championship']
+
+Device: 'PS4 HEN 9.00 S' (raw: 'PS 4.6- HEN 9.00 S') -> 20 games
+   Games: ['A Way Out', 'Call Of Dutty: WW2', 'Crash Team Racing Nitro-Fueled', 'Dynasty Wariors 8 Empires', 'EA SPORTS FC 26', 'EA SPORTS UFC 4', 'eFootball PES 2026 New Update', 'Elden Ring Nightreign', 'Fast And Furious', 'Grand Theft Auto V', 'Hotwheel Unleashed', 'It Takes TWO', 'Minecraft PS4 Edition', 'MXGP19', 'Naruto Ultimate Ninja Storm:4', 'Need for Speed: Heat', 'Overcooked 2', 'Tekken 7 Full Character DLC', 'Unravel Two', 'Unravel TWO']
+
+Device: 'PS4 HEN 9.00 S' (raw: 'PS 4.7-HEN 9.00 S') -> 21 games
+   Games: ['Assassins Creed: Syndicate', 'Bitbox Patch PES 2026 New Update', 'Call Of Dutty: WW2', 'Crash Team Racing Nitro-Fueled', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES 2026 New Update', 'Grand Theft Auto V', 'Hello Neighbor', 'Hotwheel Unleashed 2', 'It Takes Two', 'Just Cause 4', 'Kena Bride Of Spirit', 'Lego Marvel Avangers', 'Minecraft PS4 Edition', 'MotoGP 24', 'Moving Out 2', 'Naruto Ultimate Ninja Storm:4', 'Senggoku Basara 4', 'Stray', 'Tekken 7 Full Character DLC']
+
+Device: 'PS4 HEN 9.00 S' (raw: 'PS 4.9 HEN 9.00 S') -> 17 games
+   Games: ['A Way Out', 'Assasin Creed Valhalla', 'Bitbox Patch PES 2026 New Update', 'Call Of Dutty: Modern Warfare', 'Crash Team Racing: NitroFueled', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES Monster Patch 2026 New Update', 'Grand Theft Auto V', 'It Takes Two', 'MotoGP Clasic 2022', 'Naruto Shipuden: Ultimate Ninja Storm 4', 'Overcooked 2', 'Tekken 7 Full Character DLC', 'Unravel TWO', 'Warior Orochi', 'Watch DOGS 2']
+
+Device: 'PS4 Pro - HEN 9.00' (raw: 'PS PRO 4.3- HEN 9.00') -> 17 games
+   Games: ['A Way Out', 'Bitbox Patch 2026 New Update', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES 2026 New Update', 'Gang Beast', 'It Takes Two', 'Legendary Fishing', 'Marvel:Spiderman Miles Morales', 'Marvels Avangers', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA2K26', 'Overcook All You can eat', 'Resident Evil: 4 REMAKE', 'Sengoku Basara 4', 'Tekken 7 Full Update Character', 'Warriors Orochi 4']
+
+Device: 'PS4 Pro - HEN 9.00' (raw: 'PS PRO 4.7- HEN 9.00') -> 13 games
+   Games: ['A Way Out', 'Bitbox Patch 2026 New Update', 'EA SPORTS FC 26', 'eFootball PES Monster Patch 2026 New Update', 'Grand Theft Auto V', 'It Takes Two', 'LEGO Jurasic World', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA2K26', 'Sekiro Shadow Die Twice', 'Sengoku Basara 4', 'Tekken 7 Full Update Character', 'Tony Hawk PRO Skater']
+
+Device: 'PS4 Pro -11' (raw: 'PS PRO 4.1 -11') -> 20 games
+   Games: ['A Way Out', 'Battlefield I', 'Bitbox Patch 2026 New Update', 'Burnout Paradise Remastered', 'Call of Duty: Modern Warfare II', 'Call of Duty: Vanguard', 'EA SPORTS FC 26', 'eFootball PES 2026 New Update', 'F124', 'Hello Neighbour', 'It Takes Two', 'Jump Force', 'Minercraft', 'Monster Hunter RIse', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA2K26', 'Overcooked', 'Resident Evil 4 Remake', 'Tekken 7 Full Update Character', 'Unravel Two']
+
+Device: 'PS4 Pro -11' (raw: 'PS PRO 4.4-11') -> 20 games
+   Games: ['Battlefield V', 'Bitbox Patch 2026 New Update', 'Crash Team Racing Nitro-Fueled', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES 2026 New Update', 'Ghost of Tsushima', 'Grand Theft Auto V', 'It Takes Two', 'Minecraft', 'Mortal Kombat 11 Ultimate', 'NARUTO X BORUTO Ultimate Ninja STORM', 'Need for Speed: Heat', 'Project Cars 3', 'Sengoku Basara 4', 'Sniper Elite Resistance Deluxe Edition', 'Tekken 7 Full Update Character', 'Uncharted 4', 'Unravel TWO', 'Watch Dogs 2']
+
+Device: 'PS4 Pro -9' (raw: 'PS PRO 4.2-9') -> 16 games
+   Games: ['A Way Out', 'Asterix & Obelix XXL3: The Crystal Menhir', 'Bitbox Patch 2026 New Update', 'Call of Duty: Modern Warfare', 'Crash Team Racing', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'Ghost of Tsushima', 'Minecraft PS 4 Edition', 'Moving Out 2', 'NBA2K26', 'Outward', 'Overcooked 2', 'Red Dead Redemption 2', 'Sengoku Basara 4', 'Tekken 7 Full Update Character']
+
+Device: 'PS4 Pro -9 Dstergame 2' (raw: 'PS PRO 4.5-9  Dstergame 2') -> 17 games
+   Games: ['A Way Out', 'Bitbox Patch 2026 New Update', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES 2026 New Update', 'F124', 'GangBeast', 'Grand Theft Auto V', 'It Takes Two', 'Minecraft PS4 EDITION', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA2K26', 'OverCooked 2', 'Sengoku Basara 4', 'Stray', 'Tekken 7 Full Update Character', 'Unravel TWO']
+
+Device: 'PS4 Pro -9 Dstergame 2' (raw: 'PS PRO 4.6-9 Dstergame 2') -> 18 games
+   Games: ['Bitbox Patch 2026 New Update', 'Call Of Dutty Modern Warfare 2 Remastered', 'Crash Team Racing Nitro-Fueled', 'Dying Light', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'eFootball PES 2025 New Update', 'F1 24', 'Ghost Of Tsushima', 'It Takes Two', 'MotoGP25', 'NBA2K26', 'Overcooked 2', 'Spiderman Miles Morales', 'The Last Of Us PART II', 'Unravel TWO', 'Watch Dogs: 2', 'WWE2K24']
+
+Device: 'PS4 Pro -HEN 9.00' (raw: 'PS PRO 4.8-HEN 9.00') -> 14 games
+   Games: ['A Way Out', 'Bitbox Patch 2026 New Update', 'Crash Team Racing Nitro-Fueled', 'Days Gone', 'Detroit Become Human', 'EA SPORTS FC 26', 'EA Sports UFC 4', 'F1 24', 'Grand Theft Auto V', 'Minecraft PS4 Edition', 'MotoGP25', 'NARUTO X BORUTO Ultimate Ninja STORM', 'NBA2K26', 'Tekken 7 Full Update Character']
+
+Device: 'Nintendo Switch 1' (raw: 'NINTENDO SWITCH 1') -> 44 games
+   Games: ['Animal Crossing: New Horizons', 'Arcade Archives: Renegade', 'Arcade Archives: Sky Skipper', 'Arcade Archives: STAR FORCE', 'Arcade Archives: TERRA CRESTA', 'Arcade Archives: Traverse USA', 'ARMS', 'Asterix & Obelix XXL3: The Crystal Menhir', 'Bubble Bobble 4 Friends', 'Captain Tsubasa: Rise Of New Champions', 'Crisis Core: Final Fantasy VII- Reunion', 'Crysis Remastered', 'Doreaemon Story Of Seasons', 'Dragon Ball Z:Kakarot', 'EA SPORTS FC 26', 'Everybody 1-2 Switch', 'Fire Emblem Wariors', 'Fitness Boxing 2: Rhythm & Exercise', 'Grand Theft Auto San Andreas: The Resmaterd', 'Gundam Breaker 4', 'Hogwarts Legacy', 'Hot Wheels Monster Truck: Stunts Mayhem', 'LEGO City Undercover', 'LEGO Horizon Adventures', 'Luigis Mansions', 'Mario Kart 8 Deluxe', 'My SIMS', 'New Super Mario Bross. U DELUXE', 'Nintendo Switch Sports', 'No More Heroes 3', 'One Piece Pirate Warriors 4', 'Resident Evil: 6', 'Shin Chan: Shiro And The Coal Town', 'Splatoon 3', 'Super Mario 3D All Stars', 'Super Mario 3D World', 'Super Mario Bros. Wonder', 'Super Mario Maker 2', 'Super Mario Party Jambroe', 'Super Mario SPG', 'The Legend of Zelda: Breath of the Wild', 'The Legend of Zelda: Tears of the Kingdom', 'The Smurfs Dreams', 'WWE Battlegrounds']
+
+Device: 'PS3' (raw: 'PS 3.1') -> 32 games
+   Games: ['Boruto Ultimate ninja storm', 'DANCE DANCE REVOLUTION', 'Devil may Cry', 'Dirt 3', 'Dynasty Warriors', 'eFootball PES 2025 New Update', 'F1 Race Stars', 'Farming simulator 15', 'Gembox Patch 2026 New Update', 'GOD OF WAR 3', 'Gran Turismo 6', 'Grand Theft Auto IV', 'Grand Theft Auto V', 'Grand Theft Auto: San Andreas', 'LEGO Lord Of The Rings', 'Minecraft', 'Monopoly', 'MotoGP18', 'NBA2K18', 'Need For Speed: Rivals', 'ONE PIECE PIRATE WARRIOR', 'Pac-Man and the Ghostly Adventures', 'Portal 2', 'Repala pro bass fishing', 'Sonic Allstars racing transformed', 'Sport champion', 'Super Mario Bros', 'Tekken 6', 'The Amazing Spiderman', 'UFC undisted 2', 'Ultra Street ninja storm', 'WWE Allstars']
+
+Device: 'PS3' (raw: 'PS 3.10') -> 34 games
+   Games: ['Army Of Two', 'Avatar', 'Basara 4', 'Batllefield 4', 'Batman Arkham City', 'Blur', 'Call Of Dutty Moderen Warfare', 'Cars 2', 'Devil My Cry', 'Devil My Cry 4', 'Dirt 3', 'Dragonball Xenoverse', 'Gembox Patch 2026 New Update', 'Grand Theft Auto V', 'Hott Wheels', 'Lego: Lord Of The Rings', 'Madagascar Karts', 'Metal Gear Solid', 'Mortal Kombat', 'Motogp', 'Naruto Ultimate Ninja Storm 3', 'NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS', 'Onepice Pirate Wariors 3', 'Pacman', 'Portal 2', 'Red Dead Redemption', 'Resident Evil 6', 'Sleeping Dogs', 'Sniper Elite 3', 'Supermario', 'Tekken 6', 'Tomb Rider', 'Top Spin 4', 'WWE Allstars']
+
+Device: 'PS3' (raw: 'PS 3.11') -> 50 games
+   Games: ['Anggry Birds', 'Assasin Creed 2', 'Assasin Creed Brother Hood', 'Blur', 'Call Of Dutty Black Ops', 'Dance Dance Revolution', 'Devil My CRY', 'Dirt 3', 'Disney Pixar Brave', 'Dynasty Wariors 8', 'eFootball PES 2025 New Update', 'F1 Race Star', 'Farcry 2', 'Fast And Furios: Showdown', 'Gembox Patch 2026 New Update', 'God Of War 3', 'GodZilla', 'Grand Theft Auto San Andreas', 'Grand Theft Auto V', 'Homefront', 'James Cameron avatar', 'Jurasic Park: the hauted', 'Kane & lynch', 'La Noire', 'MasK Efect 3', 'Monopoly', 'Motogp', 'MudFim Motocros', 'NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS', 'NBA2K18', 'Need For Speed: The Run', 'Need For Speed: Undercover', 'Onepice Pirate Wariors 3', 'Pacman', 'Payday 2', 'Portal 2', 'Prince Of Persia The Forgten', 'Rapala', 'Rio', 'Sands', 'Sonic Allstars', 'Specs Ops The Line', 'Sports Champions', 'Supermario', 'The Amazing Spiderman', 'The Sims 3', 'Top Spin 3', 'UFC 3 Undisputed', 'Ultimate Marvel VS Capcom', 'Ultra Street Fighter']
+
+Device: 'PS3' (raw: 'PS 3.12') -> 45 games
+   Games: ['Anggry Birds', 'Assasin Creed 2', 'Assasin Creed Brother Hood', 'Avatar', 'Batllefield 4', 'Batman Arkham City', 'Blur', 'Call Of Dutty Moderen Warfare', 'Cars 2', 'Devil My Cry', 'Devil My Cry 4', 'Dirt 3', 'Dragonball Xenoverse', 'eFootball PES 2025 New Update', 'F1 Race Star', 'Gembox Patch 2026 New Update', 'God Of War 3', 'Grand Theft Auto V', 'Hott Wheels', 'Lego: Lord Of The Rings', 'Madagascar Karts', 'Metal Gear Solid', 'Mortal Kombat', 'Motogp', 'Naruto Ultimate Ninja Storm 3', 'NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS', 'Onepice Pirate Wariors 3', 'Pacman', 'Portal 2', 'Prince Of Persia The Forgten', 'Rapala', 'Red Dead Redemption', 'Resident Evil 6', 'Rio', 'Sands', 'Sonic Allstars', 'Specs Ops The Line', 'Sports Champions', 'Supermario', 'The Amazing Spiderman', 'The Sims 3', 'Top Spin 3', 'UFC 3 Undisputed', 'Ultimate Marvel VS Capcom', 'Ultra Street Fighter']
+
+Device: 'PS3' (raw: 'PS 3.2') -> 19 games
+   Games: ['Call of Duty 4: Modern Warfare', 'Castlevania: Lords of Shadow 2', 'Dantes Inferno', 'Deadpool', 'Devil May Cry', 'Downhill Domination', 'eFootball PES 2025 New Update', 'Gembox Patch 2026 New Update', 'Grand Theft Auto V', 'LOLLIPOP CHAINSAW', 'NARUTO SHIPPUDEN: STROM 3', 'Need for Speed: Most Wanted', 'NINJA GAIDEN 3', 'ONE PIECE: PIRATE WARRIORS 3', 'Pesona 5', 'RESIDENT EVIL 6', 'SUPER HERO Ultimate Alliance 2', 'Tomb Raider: Underworld', 'WARRIORS OROCHI 3']
+
+Device: 'PS3' (raw: 'PS 3.3') -> 23 games
+   Games: ['A.O.T. Wings of Freedom', 'Army of Two: The 40th Day', 'Battlefield 4', 'Call of Duty: Black ops II', 'Call of Duty: Modern Warfare 3', 'DRIVER San Francisco', 'eFootball PES 2025 New Update', 'Farming simulator 15', 'FIFA street', 'Gembox Patch 2026 New Update', 'Grand Theft Auto IV', 'Grand Theft Auto V', 'Grand turismo 6', 'Guitar hero III: Legend of rock', 'LEGO Star Wars: The Complete Saga', 'Mortal Kombat Completed Edition', 'MotoGP 2019 Season 2019', 'Naruto Shippuden Ultimate Ninja Strom Revolution', 'NBA 2K17', 'Need for speed: The Run', 'One Piece: Pirate Warriors', 'Tom Clancys splinter cell', 'Tom Clancys Splinter Cell Blacklist']
+
+Device: 'PS3' (raw: 'PS 3.4') -> 30 games
+   Games: ['Army Of TWO', 'Basara 4', 'Battlefield 4', 'Call of Duty Advance Warfare', 'Call of Juarez: The Cartel', 'Cars 2', 'Dance Dance Revolution', 'Dead Space 2', 'Devil My Cry 4', 'Disney pixar: Brave', 'Dragon Ball Xenoverse', 'Dynasty Wariors 8 Extreme Legend', 'eFootball PES 2026 New Update', 'Farcry 4', 'Gembox Patch 2026 New Update', 'God Of War 3', 'Grand Theft Auto: V', 'Hitman: Absolution', 'Hotwheels', 'inFAMOUS 2', 'Iron Man 2', 'Madagascar kart', 'Monopoly', 'NBA2K18', 'One Piece: Pirate Wariors 3', 'Sonic All Stars Rumble', 'The Amazing Spiderman 2', 'UFC Undisputed', 'Ultimate Marvel vs Capcom', 'Ultra street Fighter 4']
+
+Device: 'PS3' (raw: 'PS 3.5') -> 31 games
+   Games: ['Attack On Titan', 'Batman: Arkham Asylum', 'Battlefield 3', 'Battlefield 4', 'Call Of Duty: Advance Warfare', 'Castlevania: Lords of Shadow 2', 'Deus Ex: Human Revolution', 'Dynasty Warriors 8', 'F1 2014', 'Fifa Street', 'Gembox Patch 2026 New Update', 'Grand Theft Auto V', 'Grand Theft Auto: San Andreas', 'Grand Turismo 6', 'LEGO Jurassic World', 'LEGO Marvel Avengers', 'Midnight Club: Los Angeles', 'Minecraft Playstation 3 Edition', 'NBA2K18', 'Need for Speed: Most Wanted', 'Need for Speed: Rivals', 'Persona 5', 'Prince of Persia: The Forgotten Sands', 'Red Dead Redemption', 'Resident Evil 6', 'Rio The Janeiro', 'Sniper Elite 3', 'Tekken 6', 'The Walking Dead: Survival Instinct', 'Tom Clancys Ghost Recon: Future Soldier', 'Warriors Legends Of Troy']
+
+Device: 'PS3' (raw: 'PS 3.6') -> 31 games
+   Games: ['Dark Souls', 'Devil My Cry 5', 'Dragonball Xenoverse', 'Dragonball Z Batlle Of Z', 'Fifa Street', 'Gembox Patch 2026 New Update', 'God Of War 3', 'Grand Theft Auto V', 'Grid Autosport', 'Kilzone 3 Multiplayer', 'Lego Batman', 'Lego Indianajones', 'Lego Marvel Super Heroes', 'Metal Slug 3', 'Minecraft', 'Mortal Kombat VS Dc Universe', 'Motogp 24-25', 'Naruto Shipuden Ultimate Ninja Storm', 'Nascar 14', 'Need For Speed: Most Wanted', 'One Piece Pirate Warrior 3', 'Red Dead Redemption Undead Nightmare', 'Resident Evil 5 Gold Edition', 'Saint Row 2', 'Sniper Elite 3', 'Sonic All Stars', 'Tekken 6', 'The Amazing Spiderman', 'The Sims 3', 'Watch Dogs', 'WWE2K17']
+
+Device: 'PS3' (raw: 'PS 3.7') -> 30 games
+   Games: ['Army Of Two: The 40th Day', 'BatlleField 4', 'Batman Arkham City', 'Blur', 'Call Of Duty: Black Ops 3', 'Dark SoulS', 'Devil My Cry 6', 'Dragon Ball Xenoverse', 'Dragon Ball z: Batlle Of Z', 'EA SPORTS: MMA', 'Gembox Patch 2026 New Update', 'God of War 3', 'Grand Theft Auto', 'Killzone', 'Lego Indiana Jones', 'Lego Jurasic Park', 'Little Big Planet 3', 'Minecraft', 'Monopoly', 'Mortal Kombat Vs DC Universe', 'Motogp 24-25', 'Naruto Shipuden Ultimate Ninja Storm', 'Need For Speed Most Wanted', 'Resident Evil 5 Gold Edition', 'Saint Row 2', 'Sniper Elite 3', 'Sonic All Stars', 'Tekken 6', 'The Sims 3', 'Watch Dogs']
+
+Device: 'PS3' (raw: 'PS 3.8') -> 35 games
+   Games: ['Army Of Two', 'Batman Arkham City', 'Blur', 'Boruto Ultimate Ninja Storm', 'Call Of Duty: Modern Warfare', 'Captain America: Super Soldier', 'Devil My Cry', 'Devil My Cry 4', 'Dirt 3', 'Farcry 2', 'Farcry 4', 'Final Fantasy XX', 'Gembox Patch 2026 New Update', 'Grand Theft Auto V', 'Homefront', 'Hot Wheels', 'Jurassic: The Hunted', 'Madagascar 3 Spider edition', 'Metal Gear Solid V', 'Mortal Kombat', 'Pacman', 'Red Dead Redemption', 'Resident Evil 6', 'Rio', 'Sleeping Dogs', 'Sniper Elite 3', 'Sports Championship', 'Super Mario Bros', 'Tekken 6', 'The Sims 3', 'Tomb Raider', 'Top Spin', 'Toy Story 3', 'Watch Dogs', 'WWE Allstars']
+
+Device: 'PS3' (raw: 'PS 3.9') -> 36 games
+   Games: ['Assassins Creed IV Black Flag', 'Batman Arkham Assylum', 'Call Of Dutty: Advance Warfare', 'Call Of Dutty: Black OPS 2', 'Devil My Cry 4', 'Dragon Ball Z Ultimate Tenkaichi', 'F1 2014', 'Farcry 4', 'Fifa 17', 'Gembox Patch 2026 New Update', 'Godzilla Sega 88', 'Gran Turismo 6', 'Hitman Absolution', 'Hotwheels', 'Ice Age 4 : Continental Drift', 'Jurassic: The Haunted', 'Kamen Raider', 'Lego: Pirates Of The Caribean', 'Lego: Star Wars 3', 'Lego: The Lord Of The Rings', 'Madascar 2', 'Marvel Ultimate Aliance 2', 'Max Payne 3', 'Metal gear rising: Revengeance', 'Minecraft Story Mode', 'Monster High: New Ghous In School', 'Mortal Kombat Komplete Edition', 'Mud Fim Motocross', 'MX VS ATV Supercross', 'Naruto Boruto Ultimate Ninja Storm', 'Nascar 15', 'Resident Evil 6', 'Skate 3', 'The Evil Within', 'UFC Undisputed 3', 'WWE2K17']
+
+Device: 'Steering Wheel Racing Simulator' (raw: 'Steering Wheel Racing Simulator') -> 7 games
+   Games: ['Asseto Corsa Competizone', 'Euro Bus Simulator', 'F125', 'Forza Horizon 5', 'Grand Turismo 7', 'Need for Speed: Heat', 'WRC Generations-The FIA WRC']
+

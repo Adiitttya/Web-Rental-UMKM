@@ -1,0 +1,18 @@
+model DailyVisit {
+  id             String   @id @default(cuid())
+  date           DateTime @db.Date
+  pagePath       String
+  visitorCount   Int      @default(0)
+  uniqueVisitors Int      @default(0)
+
+  @@unique([date, pagePath])
+  @@index([date])
+  @@index([pagePath])
+}
+
+model PageAnalytics {
+  id        String   @id @default(cuid())
+  pagePath  String   @unique
+  viewCount Int      @default(0)
+  updatedAt DateTime @updatedAt
+}

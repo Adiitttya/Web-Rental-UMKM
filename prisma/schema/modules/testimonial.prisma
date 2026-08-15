@@ -1,0 +1,19 @@
+model Testimonial {
+  id             String   @id @default(cuid())
+  reviewerName   String
+  reviewerRole   String?
+  avatarMediaId  String?
+  avatarMedia    Media?   @relation("TestimonialAvatarMedia", fields: [avatarMediaId], references: [id], onDelete: SetNull)
+  content        String   @db.Text
+  rating         Int      @default(5)
+  isFeatured     Boolean  @default(true)
+  displayOrder   Int      @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  @@index([rating])
+  @@index([displayOrder])
+  @@index([isFeatured, deletedAt, displayOrder])
+}

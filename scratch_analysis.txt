@@ -1,0 +1,805 @@
+
+=========================================
+SHEET: LIST GAME DSTERGAME 1
+=========================================
+
+--- Column A (total non-empty: 3) ---
+  Row 1: DSTERGAME LIST GAME☑️
+  Row 2: Jl. Yos Sudarso No.43, Blanten, Genuk, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah
+  Row 3: WA admin 1 : 085174162206, WA admin 2 : 085172412206
+
+--- Column B (total non-empty: 48) ---
+  Row 9: PS 5.1 VIP Online/Netflix
+  Row 23: PS 5.2 Online
+  Row 36: PS 5.3 Offline
+  Row 49: PS 5.4 ONLINE
+  Row 62: Steering Wheel Racing Simulator
+  Row 76: NINTENDO SWITCH 1
+  Row 96: NINTENDO SWITCH 2
+  Row 123: PS 4.1-HEN 11.00 F EXT
+  Row 136: PS 4.2- HEN 9.00 F
+  Row 151: PS 4.3 - HEN 9.00 F
+  Row 165: PS 4.4-HEN 9.00 F
+  Row 179: PS 4.5- HEN 11.00 F
+  Row 193: PS 4.6- HEN 9.00 S
+  Row 206: PS 4.7-HEN 9.00 S
+  Row 220: PS 4.8 - HEN 9.00 F
+  Row 234: PS 4.9 HEN 9.00 S
+  Row 247: PS 4.10 - HEN 9.00 S
+  Row 259: PS 4.11 - HEN 12.50 F
+  Row 271: PS 4.12 - HEN 11.00 F
+  Row 283: PS 4.13 - HEN 11.00 F
+  Row 297: PS PRO 4.1 -11
+  Row 311: PS PRO 4.2-9
+  Row 325: PS PRO 4.3- HEN 9.00
+  Row 339: PS PRO 4.4-11
+  Row 353: PS PRO 4.5-9  Dstergame 2
+  Row 367: PS PRO 4.6-9 Dstergame 2
+  Row 380: PS PRO 4.7- HEN 9.00
+  Row 393: PS PRO 4.8-HEN 9.00
+  Row 406: PS 3.1
+  Row 420: PS 3.2
+  Row 434: PS 3.3
+  Row 448: PS 3.4
+  Row 462: PS 3.5
+  Row 476: PS 3.6
+  Row 490: PS 3.7
+  Row 508: PS 3.8
+  Row 535: PS 3.9
+  Row 562: PS 3.10
+  Row 590: PS 3.11
+  Row 618: PS 3.12
+
+--- Column C (total non-empty: 580) ---
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 13: ✅
+  Row 14: ✅
+  Row 15: ✅
+  Row 16: ✅
+  Row 17: ✅
+  Row 18: ✅
+  Row 19: ✅
+  Row 20: ✅
+  Row 21: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+  Row 36: ✅
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 41: ✅
+  Row 42: ✅
+  Row 43: ✅
+  Row 44: ✅
+  Row 45: ✅
+  Row 46: ✅
+  Row 47: ✅
+  Row 49: ✅
+  Row 50: ✅
+  Row 51: ✅
+
+--- Column D (total non-empty: 546) ---
+  Row 9: EA SPORTS™ FC 26
+  Row 10: NBA 2K26
+  Row 11: Tekken 8
+  Row 12: EA Sports UFC 5: Ultimate Edition
+  Row 13: It Takes Two
+  Row 14: A Way Out
+  Row 15: NARUTO X BORUTO Ultimate Ninja STORM
+  Row 16: OVERCOOKED ALL YOU CAN EAT!
+  Row 17: PES 2021 New Season Update
+  Row 18: Grand Theft Auto V
+  Row 19: Poppy
+  Row 20: Split Fiction
+  Row 21: Motogp26
+  Row 23: EA SPORTS™ FC 26
+  Row 24: EA Sports UFC 5: Ultimate Edition
+  Row 25: NBA 2K26
+  Row 26: PES 2021 New Season Updae
+  Row 27: Forza Horizon 5
+  Row 28: F1®25
+  Row 29: Grand Turismo 7
+  Row 30: Unravel
+  Row 31: Unravel TWO
+  Row 32: A Way Out
+  Row 33: Astro Bot
+  Row 34: Ride 5
+  Row 36: EA SPORTS™ FC 26
+  Row 37: EA Sports UFC 5: Ultimate Edition
+  Row 38: TEKKEN 8
+  Row 39: eFootball PES 2026 New Update
+  Row 40: Wukong
+  Row 41: Spiderman
+  Row 42: Subnautica Bellow Zero
+  Row 43: EA Sports WRC
+  Row 44: Resident Evil 9: Requiem
+  Row 49: Mortal Kombat 1 Definitive Edition
+  Row 50: Black Myth: Wukong
+  Row 51: Astrobot
+  Row 52: EA Sports UFC 5: Ultimate Edition
+  Row 53: EA SPORTS™ FC 26
+  Row 62: Forza Horizon 5
+
+--- Column E (total non-empty: 403) ---
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 13: ✅
+  Row 14: ✅
+  Row 15: ✅
+  Row 16: ✅
+  Row 17: ✅
+  Row 18: ✅
+  Row 19: ✅
+  Row 20: ✅
+  Row 21: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+  Row 36: ✅
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 41: ✅
+  Row 42: ✅
+  Row 43: ✅
+  Row 44: ✅
+  Row 45: ✅
+  Row 46: ✅
+  Row 47: ✅
+  Row 49: ✅
+  Row 50: ✅
+  Row 51: ✅
+
+--- Column F (total non-empty: 299) ---
+  Row 9: Marvel's Spider-Man 2
+  Row 10: World War Z: Aftermath
+  Row 11: Yet Another Zombie Survivors
+  Row 12: Outlast
+  Row 13: Assassin's Creed Odyssey
+  Row 14: WWE2K26
+  Row 15: The Last Of Us Remastered
+  Row 23: TEKKEN 8
+  Row 24: Wukong
+  Row 25: It Takes Two
+  Row 76: Dragon Ball Z:Kakarot
+  Row 77: Animal Crossing: New Horizons
+  Row 78: Everybody 1-2 Switch
+  Row 79: Fire Emblem Wariors
+  Row 80: Fitness Boxing 2: Rhythm & Exercise
+  Row 81: Grand Theft Auto San Andreas: The Resmaterd
+  Row 82: Gundam Breaker 4
+  Row 83: Hogwarts Legacy
+  Row 84: Hot Wheels Monster Truck: Stunts Mayhem
+  Row 85: LEGO® City Undercover
+  Row 86: LEGO® Horizon Adventures
+  Row 87: Luigi's Mansions
+  Row 88: Mario Kart 8 Deluxe
+  Row 96: Everbody 1-2 Switch!
+  Row 97: Fatal Frame: Maiden of Black Water
+  Row 98: Fire Emblem: Three Houses
+  Row 99: Go Vacation
+  Row 100: Hogwarts Legacy
+  Row 101: Instan Sports Summer Games
+  Row 102: It Takes Two
+  Row 103: Just Dance 2022
+  Row 104: Kirby And The Forgoten Land
+  Row 105: LEGO® Horizon Adventures
+  Row 106: Litlle Nightmares II
+  Row 107: Luigi's Mansions
+  Row 108: Mario and Luigi: Brothership
+  Row 123: Resident Evil 4 Remake
+  Row 124: Assassin's Creed: Origins
+  Row 125: Battlefield 4
+  Row 126: Farcry 5
+
+--- Column G (total non-empty: 60) ---
+  Row 76: ✅
+  Row 77: ✅
+  Row 78: ✅
+  Row 79: ✅
+  Row 80: ✅
+  Row 81: ✅
+  Row 82: ✅
+  Row 83: ✅
+  Row 84: ✅
+  Row 85: ✅
+  Row 86: ✅
+  Row 87: ✅
+  Row 88: ✅
+  Row 96: ✅
+  Row 97: ✅
+  Row 98: ✅
+  Row 99: ✅
+  Row 100: ✅
+  Row 101: ✅
+  Row 102: ✅
+  Row 103: ✅
+  Row 104: ✅
+  Row 105: ✅
+  Row 106: ✅
+  Row 107: ✅
+  Row 108: ✅
+  Row 130: 4.0
+  Row 406: ✅
+  Row 407: ✅
+  Row 408: ✅
+  Row 409: ✅
+  Row 410: ✅
+  Row 411: ✅
+  Row 448: ✅
+  Row 449: ✅
+  Row 450: ✅
+  Row 451: ✅
+  Row 452: ✅
+  Row 453: ✅
+  Row 454: ✅
+
+--- Column H (total non-empty: 47) ---
+  Row 76: My SIMS
+  Row 77: New Super Mario Bross. U DELUXE
+  Row 78: Nintendo Switch Sports
+  Row 79: No More Heroes 3
+  Row 80: One Piece Pirate Warriors 4
+  Row 81: Resident Evil: 6
+  Row 82: Shin Chan: Shiro And The Coal Town
+  Row 83: Splatoon 3
+  Row 84: Super Mario 3D All Stars
+  Row 85: Super Mario 3D World
+  Row 86: Super Mario Bros. Wonder
+  Row 87: Super Mario Maker 2
+  Row 88: Super Mario Party Jambroe
+  Row 96: Mario and Sonic At the Olympic Games Tokyo
+  Row 97: Mario Kart 8 Deluxe
+  Row 98: Mario Tennis Aces
+  Row 99: Marvel Ultimate Alliance 3: The Black Order
+  Row 100: NARUTO X BORUTO Ultimate Ninja STORM
+  Row 101: New Super Mario Bros. U Deluxe
+  Row 102: Nine Sols
+  Row 103: Nintendo Swicth Sports
+  Row 104: Overcooked! All You Can Eat
+  Row 105: Pokemon Legends: Arceus
+  Row 106: Pokemon: Let's Go Pikacchu
+  Row 107: Real Boxing 2 Remastered
+  Row 108: Super Mario 3D WORLD
+  Row 406: GOD OF WAR 3
+  Row 407: Farming simulator 15
+  Row 408: Dynasty Warriors
+  Row 409: Devil may Cry
+  Row 410: Dirt 3
+  Row 411: DANCE DANCE REVOLUTION
+  Row 448: UFC Undisputed
+  Row 449: Ultimate Marvel vs Capcom
+  Row 450: Ultra street Fighter 4
+  Row 451: Basara 4
+  Row 462: Tekken 6
+  Row 463: The Walking Dead: Survival Instinct
+  Row 464: Tom Clancy's Ghost Recon: Future Soldier
+  Row 465: Warriors Legends Of Troy
+
+--- Column I (total non-empty: 0) ---
+
+=========================================
+SHEET: LISTGAME DSTERGAME CABANG 2
+=========================================
+
+--- Column A (total non-empty: 3) ---
+  Row 1: DSTERGAME CABANG 2 LISTGAME✅
+  Row 2: Jl. Gedongsongo. No 17 Mijen, Candirejo, Kec. Ungaran Bar, Kabupaten Semarang, Jawa Tengah
+  Row 3: WA admin 1 : 085135984134, WA admin 2 : 085172412206
+
+--- Column B (total non-empty: 14) ---
+  Row 9: PS4 NO 2
+  Row 22: PS4 NO 3
+  Row 36: PS4 NO 6
+  Row 50: PS 4 NO 7 TROUBLE
+  Row 63: PS 4 NO 8
+  Row 76: PS3 NO 1 trouble
+  Row 90: PS3 NO 4
+  Row 108: PS3 NO 5
+  Row 126: HAK MEMBER DSTERGAME CABANG 2 Playstation 3-4
+  Row 128: USER DSTERGAME BERHAK MENDAPATKAN PELAYANAN  TERBAIK 👑 DAN FREE  WIFI✅
+  Row 129: JIKA Wi-FI TIDAK DAPAT DIGUNAKAN MOHON HUBUNGI OPERATOR YANG BERJAGA✅
+  Row 130: JIKA ADA KENDALA  SAAT BERMAIN (BATERRY HABIS , FREZEE ,STICK EROR ,KIPAS ANGIN)   MOHON HUBUNGI OPERATOR✅
+  Row 131: JIKA ADA GAME YANG UPDATE/TROUBLE MOHON HUBUNGI OPERATOR✅
+  Row 137: Last Dster Game Update: 11 Juni - 2026
+
+--- Column C (total non-empty: 104) ---
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 13: ✅
+  Row 14: ✅
+  Row 15: ✅
+  Row 16: ✅
+  Row 17: ✅
+  Row 18: ✅
+  Row 19: ✅
+  Row 20: ✅
+  Row 22: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+  Row 36: ✅
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 41: ✅
+  Row 42: ✅
+  Row 43: ✅
+  Row 44: ✅
+  Row 45: ✅
+  Row 46: ✅
+  Row 47: ✅
+  Row 48: ✅
+  Row 50: ✅
+  Row 51: ✅
+
+--- Column D (total non-empty: 92) ---
+  Row 9: eFootball PES 2025 New Update
+  Row 10: EA SPORTS™ FC 26
+  Row 11: Bitbox Patch 2026 New Update
+  Row 12: EA Sports™ UFC 4
+  Row 13: Watch Dogs: 2
+  Row 14: Ghost Of Tsushima
+  Row 15: Call Of Dutty" Modern Warfare 2 Remastered
+  Row 16: Spiderman Miles Morales
+  Row 17: NBA2K26
+  Row 18: Crash Team Racing Nitro-Fueled
+  Row 19: Unravel TWO
+  Row 20: It Takes Two
+  Row 22: Bitbox Patch 2026 New Update
+  Row 23: EA SPORTS™ FC 26
+  Row 24: Overcooked 2
+  Row 25: Asterix & Obelix XXL3: The Crystal Menhir
+  Row 26: Moving Out 2
+  Row 27: NBA2K26
+  Row 28: Red Dead Redemption 2
+  Row 29: EA Sports™ UFC 4
+  Row 30: Call of Duty: Modern Warfare
+  Row 31: Tekken 7 Full Update Character
+  Row 32: Ghost of Tsushima
+  Row 33: Outward
+  Row 34: A Way Out
+  Row 36: eFootball PES 2026 New Update
+  Row 37: EA SPORTS™ FC 26
+  Row 38: Bitbox Patch 2026 New Update
+  Row 39: F1®24
+  Row 40: NBA2K26
+  Row 41: EA Sports™ UFC 4
+  Row 42: Tekken 7 Full Update Character
+  Row 43: NARUTO X BORUTO Ultimate Ninja STORM
+  Row 44: It Takes Two
+  Row 45: A Way Out
+  Row 46: GangBeast
+  Row 47: Grand Theft Auto V
+  Row 48: Stray
+  Row 63: eFootball PES 2026 New Update
+  Row 64: EA SPORTS™ UFC® 3
+
+--- Column E (total non-empty: 74) ---
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 13: ✅
+  Row 14: ✅
+  Row 15: ✅
+  Row 16: ✅
+  Row 22: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 36: ✅
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 50: ✅
+  Row 51: ✅
+  Row 52: ✅
+  Row 53: ✅
+  Row 54: ✅
+  Row 55: ✅
+  Row 56: ✅
+  Row 57: ✅
+  Row 63: ✅
+  Row 64: ✅
+  Row 65: ✅
+  Row 66: ✅
+  Row 67: ✅
+  Row 68: ✅
+  Row 69: ✅
+  Row 70: ✅
+  Row 76: ✅
+  Row 77: ✅
+  Row 78: ✅
+  Row 79: ✅
+  Row 80: ✅
+  Row 81: ✅
+  Row 82: ✅
+  Row 83: ✅
+
+--- Column F (total non-empty: 61) ---
+  Row 9: The Last Of Us PART II
+  Row 10: MotoGP25
+  Row 11: Dying Light
+  Row 12: F1 24
+  Row 13: WWE2K24
+  Row 14: Overcooked 2
+  Row 22: Sengoku Basara 4
+  Row 23: Minecraft PS 4 Edition
+  Row 24: Crash Team Racing
+  Row 36: OverCooked 2
+  Row 37: Minecraft PS4 EDITION
+  Row 38: OverCooked 2
+  Row 39: Unravel TWO
+  Row 40: Sengoku Basara 4
+  Row 63: It Takes Two
+  Row 64: GangBeast
+  Row 65: NARUTO X BORUTO Ultimate Ninja STORM
+  Row 66: Moving Out 2
+  Row 67: Spike Volley ball
+  Row 68: NBA2K26
+  Row 76: God Of War 3
+  Row 77: Monopoly
+  Row 78: Mortal Kombat Complete Edition
+  Row 79: NBA 2K18
+  Row 80: Need For Speed™: Undercover
+  Row 81: One Piece: Pirate Wariors 3 Black Edition
+  Row 82: Rapala Pro Base Fishing
+  Row 83: Red Dead Redemption
+  Row 84: Resident Evil 6
+  Row 85: Sonic & All-Stars Racing Transformed
+  Row 86: Tekken 6
+  Row 87: The Amazing Spiderman 2
+  Row 90: Payday 2
+  Row 91: Pacman
+  Row 92: Onepice Pirate Wariors 3
+  Row 93: Need For Speed: Undercover
+  Row 94: NBA2K18
+  Row 95: MudFim Motocros
+  Row 96: Monopoly
+  Row 97: MasK Efect 3
+
+--- Column G (total non-empty: 37) ---
+  Row 76: ✅
+  Row 77: ✅
+  Row 78: ✅
+  Row 79: ✅
+  Row 80: ✅
+  Row 81: ✅
+  Row 82: ✅
+  Row 83: ✅
+  Row 84: ✅
+  Row 90: ✅
+  Row 91: ✅
+  Row 92: ✅
+  Row 93: ✅
+  Row 94: ✅
+  Row 95: ✅
+  Row 96: ✅
+  Row 97: ✅
+  Row 98: ✅
+  Row 99: ✅
+  Row 100: ✅
+  Row 101: ✅
+  Row 102: ✅
+  Row 103: ✅
+  Row 104: ✅
+  Row 105: ✅
+  Row 108: ✅
+  Row 109: ✅
+  Row 110: ✅
+  Row 111: ✅
+  Row 112: ✅
+  Row 113: ✅
+  Row 114: ✅
+  Row 115: ✅
+  Row 116: ✅
+  Row 117: ✅
+  Row 118: ✅
+  Row 119: ✅
+
+--- Column H (total non-empty: 36) ---
+  Row 77: Tomb Raider
+  Row 78: Toy Story 3
+  Row 79: Ultra Street Fighter IV
+  Row 80: Watch Dogs
+  Row 81: WWE 2K17
+  Row 82: Senggoku Basara 4
+  Row 83: Grand Theft Auto V
+  Row 84: Grand Theft Auto: San Andreas
+  Row 90: Fast And Furios: Showdown
+  Row 91: Farcry 2
+  Row 92: Dynasty Wariors 8
+  Row 93: Devil My CRY
+  Row 94: Disney Pixar Brave
+  Row 95: Dirt 3
+  Row 96: Dance Dance Revolution
+  Row 97: Call Of Dutty Black Ops
+  Row 98: Blur
+  Row 99: Need For Speed: The Run
+  Row 100: Portal 2
+  Row 101: Assasin Creed 2
+  Row 102: Anggry Birds
+  Row 103: Assasin Creed Brother Hood
+  Row 104: Prince Of Persia The Forgten
+  Row 105: Sands
+  Row 108: Farcry 4
+  Row 109: Farcry 2
+  Row 110: Devil My Cry
+  Row 111: Devil My Cry  4
+  Row 112: Dirt 3
+  Row 113: Captain America: Super Soldier
+  Row 114: Call Of Duty: Modern Warfare
+  Row 115: Blur
+  Row 116: Batman Arkham City
+  Row 117: Army Of Two
+  Row 118: Grand Theft Auto V
+  Row 119: Sports Championship
+
+--- Column I (total non-empty: 0) ---
+
+=========================================
+SHEET: LISTGAME DSTERGAME CABANG 3
+=========================================
+
+--- Column A (total non-empty: 13) ---
+  Row 1: DSTERGAME SALATIGA CABANG 3 LISTGAME✅
+  Row 2: Pertokoan Pandawa Pujasera, Jl. Ahmad Yani No.9, Kalicacing, Kec. Sidomukti, Kota Salatiga
+  Row 3: WA admin 1 : 085111392206, WA admin 2 : 085172412206
+  Row 8: NO
+  Row 21: NO
+  Row 36: NO
+  Row 51: NO
+  Row 65: NO
+  Row 79: NO
+  Row 93: NO
+  Row 107: NO
+  Row 121: NO
+  Row 135: NO
+
+--- Column B (total non-empty: 6) ---
+  Row 153: HAK MEMBER DSTERGAME CABANG 3 PLAYSTATION 3/4/5
+  Row 155: USER DSTERGAME BERHAK MENDAPATKAN PELAYANAN  TERBAIK 👑 DAN FREE  WIFI✅
+  Row 156: JIKA Wi-FI TIDAK DAPAT DIGUNAKAN MOHON HUBUNGI OPERATOR YANG BERJAGA✅
+  Row 157: JIKA ADA KENDALA  SAAT BERMAIN (BATERRY HABIS , FREZEE ,STICK EROR ,KIPAS ANGIN)   MOHON HUBUNGI OPERATOR✅
+  Row 158: JIKA ADA GAME YANG UPDATE/TROUBLE MOHON HUBUNGI OPERATOR✅
+  Row 164: Last Dster Game Update: 11 Juni - 2026
+
+--- Column C (total non-empty: 0) ---
+
+--- Column D (total non-empty: 114) ---
+  Row 8: 1.0
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 13: ✅
+  Row 14: ✅
+  Row 15: ✅
+  Row 16: ✅
+  Row 17: ✅
+  Row 18: ✅
+  Row 19: ✅
+  Row 21: 2.0
+  Row 22: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+  Row 36: 3.0
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 41: ✅
+  Row 42: ✅
+  Row 43: ✅
+  Row 44: ✅
+  Row 45: ✅
+  Row 46: ✅
+  Row 47: ✅
+  Row 48: ✅
+  Row 49: ✅
+
+--- Column E (total non-empty: 106) ---
+  Row 9: eFootball PES 2025 New Update
+  Row 10: Gembox Patch 2026 New Update
+  Row 11: Mortal Kombat
+  Row 12: Grand Theft Auto V
+  Row 13: Grand Theft Auto San Andreas
+  Row 14: Grand Theft Auto San IV
+  Row 15: Angry Birds
+  Row 16: Call Of Dutty: BlackOps
+  Row 17: Digimon Rumble Allstar
+  Row 18: Disney Toy Story
+  Row 19: Fast & Furious: Showdown
+  Row 22: eFootball PES 2025 New update
+  Row 23: Gembox Patch 2026 New Update
+  Row 24: Super Mario Bros
+  Row 25: MotoGP18
+  Row 26: Grand Theft Auto: San Andreas
+  Row 27: Grand Theft Auto: V
+  Row 28: Attak On Titan 進撃の巨人
+  Row 29: WWE ALLStars
+  Row 30: Top Spin 4
+  Row 31: The Walking Dead: Survival Instinct
+  Row 32: Dirt 3
+  Row 33: L.A Noire
+  Row 34: Dynasty Warriors 8: Empires
+  Row 37: eFootball PES 2026 New update
+  Row 38: EA SPORTS FC™ 26  New Update
+  Row 39: Demon Slayer - Kimetsu No Yaiba
+  Row 40: Upin Ipin Universe
+  Row 41: Grand Theft Auto V
+  Row 42: Naruto Boruto Ultimate Ninja Storm Connections
+  Row 43: Resident Evil 4 Remake
+  Row 44: Need For Speed: Heat
+  Row 45: UFC 4
+  Row 46: It Takes Two
+  Row 47: MotoGP 24
+  Row 48: Elden Ring
+  Row 49: Assassins Creed: Origins
+  Row 52: eFootball PES 2026 New update
+  Row 53: Tekken 7 Full DLC
+  Row 54: EA SPORTS FC™ 26  New Update
+
+--- Column F (total non-empty: 59) ---
+  Row 9: ✅
+  Row 10: ✅
+  Row 11: ✅
+  Row 12: ✅
+  Row 22: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+  Row 37: ✅
+  Row 38: ✅
+  Row 39: ✅
+  Row 40: ✅
+  Row 41: ✅
+  Row 42: ✅
+  Row 43: ✅
+  Row 44: ✅
+  Row 52: ✅
+  Row 53: ✅
+  Row 54: ✅
+  Row 55: ✅
+  Row 56: ✅
+  Row 57: ✅
+  Row 58: ✅
+  Row 59: ✅
+  Row 60: ✅
+  Row 66: ✅
+  Row 67: ✅
+  Row 68: ✅
+  Row 80: ✅
+  Row 81: ✅
+  Row 82: ✅
+
+--- Column G (total non-empty: 55) ---
+  Row 9: Resident Evil Revelation 2
+  Row 10: Sleeping Dogs
+  Row 11: Watchdogs
+  Row 12: Basara 3
+  Row 13: Motogp18
+  Row 14: Naruto Ultimate Ninja Storm 3
+  Row 15: NBA2K18
+  Row 16: Fifa Street 3
+  Row 17: LegoBatman
+  Row 18: Minecraft
+  Row 22: Resident Evil: 6
+  Row 23: Rayman® Legends
+  Row 24: Portal 2
+  Row 25: Pac-Man and the Ghostly Adventures
+  Row 26: Need For Speed™: Most Wanted
+  Row 27: Need For Speed™: Rivals
+  Row 28: NBA2K18
+  Row 29: MUD - FIM Motocross World Championship™
+  Row 30: Minecraft
+  Row 31: Middle-earth: Shadow of Mordor
+  Row 32: LEGO® Jurassic World
+  Row 33: DmC Devil My Cry
+  Row 34: Disney-Pixar Brave
+  Row 37: Uncharted 4
+  Row 38: Metal Slug XX
+  Row 39: Unravel TWO
+  Row 40: Grand Theft Auto: San Andreas
+  Row 41: Lego Marvel: Avangers
+  Row 42: Sonic Superstars
+  Row 43: OverCooked 2
+  Row 44: Moving Out 2
+  Row 52: Street FIghter 6
+  Row 53: It Takes Two
+  Row 54: Paw Patrols
+  Row 55: Naruto Boruto Ultimate Ninja Storm Conection
+  Row 56: Marvel Siderman
+  Row 57: Dynasty Warriors: Extreme Legends
+  Row 58: Motogp24
+  Row 59: Diablo III: Reaper of Souls
+  Row 60: Ghost Of Tsushima
+
+--- Column H (total non-empty: 13) ---
+  Row 22: ✅
+  Row 23: ✅
+  Row 24: ✅
+  Row 25: ✅
+  Row 26: ✅
+  Row 27: ✅
+  Row 28: ✅
+  Row 29: ✅
+  Row 30: ✅
+  Row 31: ✅
+  Row 32: ✅
+  Row 33: ✅
+  Row 34: ✅
+
+--- Column I (total non-empty: 12) ---
+  Row 22: Grand Theft Auto: IV
+  Row 23: Grand Turismo 6
+  Row 24: Fifa Street
+  Row 25: F1®2014
+  Row 26: Sports Championship™
+  Row 27: Sniper Elite 3
+  Row 28: Rio™
+  Row 29: Castlevania: Lords of Shadow 2
+  Row 30: CARS® 2
+  Row 31: Call Of Duty: Advance Warfare
+  Row 32: Blur
+  Row 33: LEGO® Marvel Avengers
+
+--- Column J (total non-empty: 0) ---

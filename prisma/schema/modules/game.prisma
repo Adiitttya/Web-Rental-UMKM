@@ -1,0 +1,22 @@
+model Game {
+  id           String   @id @default(cuid())
+  hardwareId   String
+  hardware     Hardware @relation(fields: [hardwareId], references: [id], onDelete: Cascade)
+  title        String
+  slug         String   @unique
+  description  String?  @db.Text
+  coverMediaId String?
+  coverMedia   Media?   @relation("GameCoverMedia", fields: [coverMediaId], references: [id], onDelete: SetNull)
+  genre        String?
+  isPopular    Boolean  @default(false)
+  displayOrder Int      @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  @@index([hardwareId])
+  @@index([genre])
+  @@index([displayOrder])
+  @@index([hardwareId, deletedAt, displayOrder])
+}

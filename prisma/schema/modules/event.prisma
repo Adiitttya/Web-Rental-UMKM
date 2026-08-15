@@ -1,0 +1,39 @@
+model EventCategory {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  events Event[]
+}
+
+model Event {
+  id            String         @id @default(cuid())
+  title         String
+  slug          String         @unique
+  subtitle      String?
+  description   String?        @db.Text
+  categoryId    String?
+  category      EventCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  posterMediaId String?
+  posterMedia   Media?         @relation("EventPosterMedia", fields: [posterMediaId], references: [id], onDelete: SetNull)
+  eventDate     DateTime?
+  startDate     DateTime?
+  endDate       DateTime?
+  isNew         Boolean        @default(true)
+  locationText  String?
+  linkUrl       String?
+  isFeatured    Boolean        @default(false)
+  status        EventStatus    @default(UPCOMING)
+  displayOrder  Int            @default(0)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  @@index([status])
+  @@index([eventDate])
+  @@index([displayOrder])
+  @@index([deletedAt, displayOrder])
+}

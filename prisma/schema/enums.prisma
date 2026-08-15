@@ -1,0 +1,51 @@
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+}
+
+enum MediaFileType {
+  IMAGE
+  VIDEO
+  DOCUMENT
+  AUDIO
+}
+
+enum EventStatus {
+  DRAFT
+  PUBLISHED
+  UPCOMING
+  ONGOING
+  COMPLETED
+  CANCELLED
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum InventoryCondition {
+  EXCELLENT
+  GOOD
+  FAIR
+  NEEDS_MAINTENANCE
+  OUT_OF_SERVICE
+}
+
+enum NotificationChannel {
+  SYSTEM
+  WHATSAPP
+  EMAIL
+  DISCORD
+}

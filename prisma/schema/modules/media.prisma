@@ -1,0 +1,36 @@
+model Media {
+  id           String        @id @default(cuid())
+  folder       String        @default("general")
+  filename     String
+  url          String
+  mimeType     String
+  fileType     MediaFileType @default(IMAGE)
+  sizeBytes    Int
+  width        Int?
+  height       Int?
+  altText      String?
+  uploadedById String?
+  uploadedBy   User?         @relation("MediaUploader", fields: [uploadedById], references: [id], onDelete: SetNull)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  // Relations to other modules
+  usersAvatar        User[]         @relation("UserAvatar")
+  heroesBg           Hero[]         @relation("HeroBgMedia")
+  heroesLogo         Hero[]         @relation("HeroLogoMedia")
+  heroDecorations    HeroDecoration[] @relation("HeroDecorationMedia")
+  hardwareCovers     Hardware[]     @relation("HardwareCoverMedia")
+  gameCovers         Game[]         @relation("GameCoverMedia")
+  eventPosters       Event[]        @relation("EventPosterMedia")
+  galleryAlbumCovers GalleryAlbum[] @relation("GalleryAlbumCoverMedia")
+  galleryPhotos      GalleryPhoto[] @relation("GalleryPhotoMedia")
+  testimonialAvatars Testimonial[]  @relation("TestimonialAvatarMedia")
+  branchCovers       Branch[]       @relation("BranchCoverMedia")
+  seoOgImages        SeoMetadata[]  @relation("SeoOgMedia")
+
+  @@index([folder])
+  @@index([fileType])
+  @@index([uploadedById])
+}
