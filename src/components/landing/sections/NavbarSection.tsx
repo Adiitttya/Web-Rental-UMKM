@@ -28,6 +28,17 @@ export const NavbarSection: React.FC = () => {
   });
 
   useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
     let ticking = false;
 
     const updateScrollState = () => {
@@ -78,7 +89,13 @@ export const NavbarSection: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 transform-gpu ${
+      onTouchMove={(e) => {
+        // Prevent background webpage scrolling when touching navbar bar
+        if (!mobileMenuOpen) {
+          e.stopPropagation();
+        }
+      }}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 transform-gpu overscroll-contain select-none ${
         isScrolled
           ? 'bg-[var(--background)]/95 backdrop-blur-md shadow-md py-2 border-b border-gray-200/60'
           : 'bg-[var(--background)]/85 backdrop-blur-md py-2.5 sm:py-3 border-b border-gray-200/30'
