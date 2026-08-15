@@ -1,5 +1,7 @@
+import { getBaseUrl } from '@/utils/siteUrl';
+
 export function JsonLd() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dstergame.com';
+  const baseUrl = getBaseUrl();
 
   const schemaData = {
     '@context': 'https://schema.org',

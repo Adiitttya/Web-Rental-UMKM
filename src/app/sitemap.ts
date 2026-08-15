@@ -1,7 +1,8 @@
 import { MetadataRoute } from 'next';
+import { getBaseUrl } from '@/utils/siteUrl';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dstergame.com';
+  const baseUrl = getBaseUrl();
   const currentDate = new Date().toISOString();
 
   const routes = [
