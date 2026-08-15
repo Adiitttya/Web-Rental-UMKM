@@ -84,6 +84,9 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     shortcut: '/favicon.ico',
   },
+  verification: {
+    google: 'q6iuYAPEgXrj_GoI0inIq5WM5IaV3C4c_mJpeB5xHrY',
+  },
   robots: {
     index: true,
     follow: true,
@@ -105,10 +108,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta
+          name="google-site-verification"
+          content="q6iuYAPEgXrj_GoI0inIq5WM5IaV3C4c_mJpeB5xHrY"
+        />
         <JsonLd />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
+
 
