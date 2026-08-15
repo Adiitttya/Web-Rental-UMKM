@@ -1,6 +1,9 @@
 import { MetadataRoute } from 'next';
 import { getBaseUrl } from '@/utils/siteUrl';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getBaseUrl();
   const currentDate = new Date().toISOString();
