@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { JsonLd } from '@/components/seo/JsonLd';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -14,28 +15,66 @@ const geistMono = Geist_Mono({
   display: 'swap',
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dstergame.com';
+
 export const metadata: Metadata = {
-  title: 'DsterGame Studio | Console & Racing Simulator Lounge Ungaran',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'DsterGame Studio | Rental PS5, PS4, Nintendo Switch & Simulator Balap Ungaran',
+    template: '%s | DsterGame Studio',
+  },
   description:
-    'Pusat rental PS3, PS4, PS5, Nintendo Switch, dan Simulator Balap Logitech G29 di Ungaran. Tempat nyaman, ber-AC, TV 4K, dan koleksi game original terlengkap.',
+    'Pusat rental PlayStation 3, PS4, PS5, Nintendo Switch, dan Simulator Balap Logitech G29 terbaik di Ungaran & Salatiga. Tempat nyaman ber-AC, TV 4K, sofa empuk, dan sewa bawa pulang.',
   keywords: [
-    'DsterGame',
     'Rental PS Ungaran',
+    'Rental PS5 Ungaran',
     'Sewa PS5 Ungaran',
-    'Racing Simulator Lounge',
-    'Logitech G29',
-    'Nintendo Switch Rental',
-    'Rental Game Ungaran',
+    'Rental PlayStation Ungaran',
+    'Rental PS Salatiga',
+    'Rental Nintendo Switch Ungaran',
+    'Simulator Balap Ungaran',
+    'Logitech G29 Rental Ungaran',
+    'Game Lounge Ungaran',
+    'Game Center Ungaran',
+    'Rental PS Murah Ungaran',
+    'Sewa PS Harian Ungaran',
+    'DsterGame Ungaran',
+    'DsterGame Studio',
   ],
-  authors: [{ name: 'DsterGame Studio' }],
+  authors: [{ name: 'DsterGame Studio', url: siteUrl }],
+  creator: 'DsterGame Studio',
+  publisher: 'DsterGame Studio',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: 'DsterGame Studio | Console & Racing Simulator Lounge Ungaran',
+    title: 'DsterGame Studio | Rental PS5, PS4, Nintendo Switch & Simulator Balap Ungaran',
     description:
-      'Pusat rental PS3, PS4, PS5, Nintendo Switch, dan Simulator Balap Logitech G29 di Ungaran.',
-    url: 'https://dstergame.com',
+      'Pusat rental PlayStation 3, PS4, PS5, Nintendo Switch, dan Simulator Balap Logitech G29 di Ungaran & Salatiga. Fasilitas TV 4K, AC dingin, sofa empuk, dan turnamen gaming.',
+    url: siteUrl,
     siteName: 'DsterGame Studio',
     locale: 'id_ID',
     type: 'website',
+    images: [
+      {
+        url: '/Logo/DsterGameLogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'DsterGame Studio - Console & Racing Simulator Lounge Ungaran',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'DsterGame Studio | Rental PS & Racing Simulator Lounge Ungaran',
+    description:
+      'Rental PS3, PS4, PS5, Nintendo Switch, dan Simulator Balap Logitech G29 terlengkap di Ungaran & Salatiga.',
+    images: ['/Logo/DsterGameLogo.png'],
   },
   icons: {
     icon: [
@@ -48,6 +87,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
@@ -58,7 +104,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <JsonLd />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
+
