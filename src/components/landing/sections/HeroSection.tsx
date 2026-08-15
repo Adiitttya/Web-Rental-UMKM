@@ -43,21 +43,20 @@ export const HeroSection: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-[90vh] lg:min-h-screen bg-[var(--background)] overflow-hidden flex flex-col justify-between pt-16 sm:pt-20"
+      className="relative bg-[var(--background)] overflow-hidden flex flex-col justify-between pt-16 sm:pt-20 min-h-auto md:min-h-[85vh] lg:min-h-screen"
     >
-      {/* 3D Floating Decorations */}
+      {/* 3D Floating Decorations - Adjusted for Mobile framing */}
       {hero.decorations?.wheel && (
         <div
-          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-100"
-          style={{ top: '14%', left: '18%', width: 'clamp(50px, 7vw, 100px)', height: 'clamp(50px, 7vw, 100px)' }}
+          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-90 sm:opacity-100 top-[6%] left-[3%] sm:top-[12%] sm:left-[14%] lg:left-[18%] w-[42px] h-[42px] sm:w-[70px] sm:h-[70px] lg:w-[95px] lg:h-[95px]"
         >
           <div className="relative w-full h-full animate-float" style={{ animationDelay: '0s' }}>
             <Image
               src={hero.decorations.wheel}
               alt="Wheel Decoration"
               fill
-              sizes="100px"
-              className="object-contain drop-shadow-xl"
+              sizes="(max-width: 640px) 42px, (max-width: 1024px) 70px, 95px"
+              className="object-contain drop-shadow-md sm:drop-shadow-xl"
               loading="lazy"
             />
           </div>
@@ -66,16 +65,15 @@ export const HeroSection: React.FC = () => {
 
       {hero.decorations?.stick && (
         <div
-          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-100"
-          style={{ top: '12%', right: '20%', width: 'clamp(45px, 6vw, 90px)', height: 'clamp(45px, 6vw, 90px)' }}
+          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-90 sm:opacity-100 top-[5%] right-[3%] sm:top-[10%] sm:right-[15%] lg:right-[20%] w-[38px] h-[38px] sm:w-[65px] sm:h-[65px] lg:w-[85px] lg:h-[85px]"
         >
           <div className="relative w-full h-full animate-float" style={{ animationDelay: '0.8s' }}>
             <Image
               src={hero.decorations.stick}
               alt="Stick Decoration"
               fill
-              sizes="90px"
-              className="object-contain drop-shadow-xl"
+              sizes="(max-width: 640px) 38px, (max-width: 1024px) 65px, 85px"
+              className="object-contain drop-shadow-md sm:drop-shadow-xl"
               loading="lazy"
             />
           </div>
@@ -84,16 +82,15 @@ export const HeroSection: React.FC = () => {
 
       {hero.decorations?.gamepad && (
         <div
-          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-100"
-          style={{ top: '32%', left: '12%', width: 'clamp(65px, 8vw, 130px)', height: 'clamp(65px, 8vw, 130px)' }}
+          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-90 sm:opacity-100 top-[20%] left-[2%] sm:top-[28%] sm:left-[8%] lg:left-[12%] w-[52px] h-[52px] sm:w-[90px] sm:h-[90px] lg:w-[125px] lg:h-[125px]"
         >
           <div className="relative w-full h-full animate-float" style={{ animationDelay: '1.4s' }}>
             <Image
               src={hero.decorations.gamepad}
               alt="GamePad Decoration"
               fill
-              sizes="130px"
-              className="object-contain drop-shadow-xl"
+              sizes="(max-width: 640px) 52px, (max-width: 1024px) 90px, 125px"
+              className="object-contain drop-shadow-md sm:drop-shadow-xl"
               loading="lazy"
             />
           </div>
@@ -102,16 +99,15 @@ export const HeroSection: React.FC = () => {
 
       {hero.decorations?.vr && (
         <div
-          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-100"
-          style={{ top: '30%', right: '12%', width: 'clamp(70px, 9vw, 140px)', height: 'clamp(70px, 9vw, 140px)' }}
+          className="absolute z-10 pointer-events-none transition-all duration-700 opacity-90 sm:opacity-100 top-[19%] right-[2%] sm:top-[26%] sm:right-[8%] lg:right-[12%] w-[55px] h-[55px] sm:w-[95px] sm:h-[95px] lg:w-[135px] lg:h-[135px]"
         >
           <div className="relative w-full h-full animate-float" style={{ animationDelay: '2s' }}>
             <Image
               src={hero.decorations.vr}
               alt="VR Decoration"
               fill
-              sizes="140px"
-              className="object-contain drop-shadow-xl"
+              sizes="(max-width: 640px) 55px, (max-width: 1024px) 95px, 135px"
+              className="object-contain drop-shadow-md sm:drop-shadow-xl"
               loading="lazy"
             />
           </div>
@@ -121,15 +117,15 @@ export const HeroSection: React.FC = () => {
       {/* Hero Central Content (Instant SSR Render for LCP Optimization) */}
       <Container
         size="lg"
-        className="relative z-20 flex flex-col items-center text-center pt-16 sm:pt-20 md:pt-24 pb-6"
+        className="relative z-20 flex flex-col items-center text-center pt-6 sm:pt-14 md:pt-20 pb-2 sm:pb-6"
       >
         {/* Logo DsterGame - Primary LCP Candidate */}
-        <div className="relative w-64 sm:w-80 md:w-[420px] lg:w-[480px] aspect-[460/140] mb-2 hover:scale-105 transition-transform duration-300">
+        <div className="relative w-56 sm:w-80 md:w-[420px] lg:w-[480px] aspect-[460/140] mb-2 sm:mb-3 hover:scale-105 transition-transform duration-300">
           <Image
             src={hero.logo}
             alt="DsterGame Logo"
             fill
-            sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 480px"
+            sizes="(max-width: 640px) 224px, (max-width: 768px) 320px, 480px"
             className="object-contain drop-shadow-2xl"
             priority
             loading="eager"
@@ -137,12 +133,12 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Instagram Handle */}
-        <p className="text-xs sm:text-sm font-bold text-[var(--dark)]/75 tracking-wider bg-blue-50/80 px-4 py-1 rounded-full border border-blue-100/60 shadow-sm">
+        <p className="text-[11px] sm:text-sm font-bold text-[var(--dark)]/75 tracking-wider bg-blue-50/80 px-3.5 py-0.5 sm:px-4 sm:py-1 rounded-full border border-blue-100/60 shadow-sm">
           {hero.instagram}
         </p>
 
         {/* Explore Button */}
-        <div className="mt-6 sm:mt-8">
+        <div className="mt-4 sm:mt-6 md:mt-8">
           <a
             href="#list-game"
             onClick={handleExploreClick}
@@ -154,18 +150,18 @@ export const HeroSection: React.FC = () => {
       </Container>
 
       {/* Game Covers Fan-out Showcase */}
-      <div className="w-full" ref={coversRef}>
-        <div className="relative w-full flex justify-center items-end z-20 pt-2 sm:pt-4 overflow-hidden min-h-[150px] min-[380px]:min-h-[175px] min-[480px]:min-h-[210px] sm:min-h-[280px] md:min-h-[320px]">
-          <div className="absolute bottom-0 left-0 right-0 h-20 min-[480px]:h-28 sm:h-40 bg-gradient-to-t from-[var(--background)] via-[var(--background)]/80 to-transparent z-40 pointer-events-none" />
+      <div className="w-full mt-2 sm:mt-4 pb-2 sm:pb-0" ref={coversRef}>
+        <div className="relative w-full flex justify-center items-end z-20 pt-2 sm:pt-4 overflow-hidden min-h-[140px] min-[380px]:min-h-[165px] min-[480px]:min-h-[200px] sm:min-h-[260px] md:min-h-[300px]">
+          <div className="absolute bottom-0 left-0 right-0 h-16 min-[480px]:h-24 sm:h-36 bg-gradient-to-t from-[var(--background)] via-[var(--background)]/80 to-transparent z-40 pointer-events-none" />
 
-          <div className="relative flex items-end justify-center pointer-events-none select-none w-full max-w-[960px] h-[140px] min-[380px]:h-[160px] min-[480px]:h-[200px] sm:h-[280px] md:h-[320px]">
+          <div className="relative flex items-end justify-center pointer-events-none select-none w-full max-w-[960px] h-[130px] min-[380px]:h-[155px] min-[480px]:h-[190px] sm:h-[260px] md:h-[300px]">
             {hero.gameCovers.map((game, idx) => {
               const configs = [
-                { rotate: -14, translateY: 'clamp(16px, 4.5vw, 48px)', translateX: 'clamp(-220px, -23vw, -65px)', zIndex: 10, scale: 0.86 },
-                { rotate:  -7, translateY: 'clamp(6px, 2vw, 18px)',    translateX: 'clamp(-110px, -11.5vw, -32px)', zIndex: 20, scale: 0.93 },
-                { rotate:   0, translateY: '0px',                       translateX: '0px',                           zIndex: 30, scale: 1.00 },
-                { rotate:   7, translateY: 'clamp(6px, 2vw, 18px)',    translateX: 'clamp(32px, 11.5vw, 110px)',   zIndex: 20, scale: 0.93 },
-                { rotate:  14, translateY: 'clamp(16px, 4.5vw, 48px)', translateX: 'clamp(65px, 23vw, 220px)',    zIndex: 10, scale: 0.86 },
+                { rotate: -14, translateY: 'clamp(14px, 4vw, 48px)', translateX: 'clamp(-180px, -22vw, -60px)', zIndex: 10, scale: 0.86 },
+                { rotate:  -7, translateY: 'clamp(5px, 1.8vw, 18px)', translateX: 'clamp(-90px, -11vw, -30px)',   zIndex: 20, scale: 0.93 },
+                { rotate:   0, translateY: '0px',                     translateX: '0px',                           zIndex: 30, scale: 1.00 },
+                { rotate:   7, translateY: 'clamp(5px, 1.8vw, 18px)', translateX: 'clamp(30px, 11vw, 90px)',     zIndex: 20, scale: 0.93 },
+                { rotate:  14, translateY: 'clamp(14px, 4vw, 48px)', translateX: 'clamp(60px, 22vw, 180px)',    zIndex: 10, scale: 0.86 },
               ];
               const c = configs[idx] || configs[2];
               const distFromCenter = Math.abs(idx - 2);
@@ -189,14 +185,14 @@ export const HeroSection: React.FC = () => {
                     transition: `transform 0.85s cubic-bezier(0.16, 1, 0.3, 1) ${transitionDelay}, opacity 0.6s ease-out ${transitionDelay}`,
                   }}
                 >
-                  <div className="relative w-[84px] h-[106px] min-[380px]:w-[100px] min-[380px]:h-[126px] min-[480px]:w-[130px] min-[480px]:h-[165px] sm:w-[180px] sm:h-[228px] md:w-[210px] md:h-[266px] lg:w-[230px] lg:h-[291px] rounded-xl min-[380px]:rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl transition-transform duration-300 hover:scale-105">
+                  <div className="relative w-[78px] h-[98px] min-[380px]:w-[94px] min-[380px]:h-[118px] min-[480px]:w-[125px] min-[480px]:h-[158px] sm:w-[170px] sm:h-[215px] md:w-[200px] md:h-[254px] lg:w-[220px] lg:h-[278px] rounded-xl min-[380px]:rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl transition-transform duration-300 hover:scale-105">
                     <Image
                       src={game.image}
                       alt={game.title}
                       fill
                       priority={idx === 0}
                       loading={idx === 0 ? "eager" : "lazy"}
-                      sizes="(max-width: 380px) 84px, (max-width: 480px) 100px, (max-width: 640px) 130px, (max-width: 768px) 180px, 230px"
+                      sizes="(max-width: 380px) 78px, (max-width: 480px) 94px, (max-width: 640px) 125px, (max-width: 768px) 170px, 220px"
                       className="object-cover"
                       draggable={false}
                     />
